@@ -2,7 +2,8 @@
 /**
  * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: Alway returns 0
+ *
  */
 int main(void)
 {
@@ -11,7 +12,6 @@ int main(void)
 
 	for (c = 'a'; c <= 'z'; c++)
 		putchar(c);
-		putchar('\n');
-
-return (0);
+	putchar('\n');
+	return (0);
 }
