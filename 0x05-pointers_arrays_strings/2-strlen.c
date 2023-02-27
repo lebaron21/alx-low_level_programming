@@ -4,7 +4,7 @@
  *@p: string
  *Return: length
  */
-int _strlen(char *p);
+int _strlen(char *p)
 {
 	int i = 0;
 
